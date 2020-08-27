@@ -1,0 +1,32 @@
+{
+  "name": "fixemail",
+  "version": "0.0.1",
+  "description": "Package for fix address of emails, type fix email joao@gmail to joao@gmail.com",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/marconwillian/FixEmail.git"
+  },
+  "author": "Marcon Willian <marconwillian@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marconwillian/FixEmail/issues"
+  },
+  "homepage": "https://github.com/marconwillian/FixEmail#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/parser": "^3.10.1",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-typescript": "^2.2.1",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.1",
+    "typescript": "^4.0.2"
+  }
+}
