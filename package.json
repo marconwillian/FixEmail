@@ -1,6 +1,6 @@
 {
   "name": "fixemail",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Package for fix address of emails, type fix email joao@gmail to joao@gmail.com",
   "main": "dist/index.js",
   "scripts": {
@@ -34,5 +34,18 @@
   },
   "dependencies": {
     "email-validator": "^2.0.4"
-  }
+  },
+  "keywords": [
+    "fix-email",
+    "email",
+    "automatic",
+    "email",
+    "validation",
+    "validator",
+    "syntax",
+    "email-validator",
+    "email-verify",
+    "email-syntax",
+    "syntax-check"
+  ]
 }
