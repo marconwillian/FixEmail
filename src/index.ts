@@ -1,11 +1,3 @@
-/**
- * @todo Task list
- * @body [x] Verify if email is valid
- * [x] Remove character inregular
- * [ ] Format domain
- * [ ] Verify if this email exist
- */
-
 import emailValidator from 'email-validator';
 
 export const validate = (email: string): boolean => {
@@ -19,9 +11,7 @@ export interface FixEmail {
 
 const updateEmail = (email: string): string => {
   const removeSpace = email.replace(/ /g, '');
-  const removeDuplePoint = removeSpace.replace(/\.{2,}/g, '.');
-
-  return removeDuplePoint;
+  return removeSpace.replace(/\.{2,}/g, '.');
 };
 
 const fixEmail = (email: string): FixEmail => {
