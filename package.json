@@ -1,7 +1,7 @@
 {
   "name": "fixemail",
-  "version": "0.0.4",
-  "description": "Package for fix address of emails, type fix email joao@gmail to joao@gmail.com",
+  "version": "0.0.5",
+  "description": "Package for fix address of emails, type fix email joao@gmail .com to joao@gmail.com",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/marconwillian/FixEmail.git"
+    "url": "https://github.com/marconwillian/FixEmail.git"
   },
   "author": "Marcon Willian <marconwillian@protonmail.com>",
   "license": "MIT",
