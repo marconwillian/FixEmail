@@ -1,6 +1,6 @@
 {
   "name": "fixemail",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Package for fix address of emails, type fix email joao@gmail .com to joao@gmail.com",
   "main": "dist/index.js",
   "scripts": {
